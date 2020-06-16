@@ -7,8 +7,6 @@ First set up git bash in your local machine following the guidelines mentioned i
 
 Follow these guidelines to succesfully set up a remote repository in your local machine, push changes to it and put a pull request.
 
-https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/configuring-a-remote-for-a-fork
-
 #### 1. Fork the repository 
 Navigate to the project link https://github.com/NagaHarshita/React-Sports-Club and fork the repo by clicking the option fork mentioned in the top right side corner. 
 
