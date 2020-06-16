@@ -13,7 +13,7 @@ Navigate to the project link https://github.com/NagaHarshita/React-Sports-Club a
 https://help.github.com/en/github/getting-started-with-github/fork-a-repo
 
 #### 2. Clone the repository 
-Clone the repo by copying the https url mentioned under clone button(green coloured) and executing the below command. 
+Clone the repo by executing the below command. 
 
 ```
 git clone https://github.com/NagaHarshita/React-Sports-Club.git
