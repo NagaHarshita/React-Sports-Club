@@ -1,71 +1,128 @@
-<!-- xThis project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React-Sports-Club
+As a part of the course Applied Software Engineering-I, with 6 of our team members, we are building this web app for all the employees of a company to use it's sports place according to schedule.
 
-## Available Scripts
+## Guidelines to group members
 
-In the project directory, you can run:
+First set up git bash in your local machine following the guidelines mentioned in the step-by-step tutorial  https://phoenixnap.com/kb/how-to-install-git-windows
 
-### `npm start`
+Follow these guidelines to succesfully set up a remote repository in your local machine, push changes to it and put a pull request.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/configuring-a-remote-for-a-fork
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+#### 1. Fork the repository 
+Navigate to the project link https://github.com/NagaHarshita/React-Sports-Club and fork the repo by clicking the option fork mentioned in the top right side corner. 
 
-### `npm test`
+https://help.github.com/en/github/getting-started-with-github/fork-a-repo
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### 2. Clone the repository 
+Clone the repo by copying the https url mentioned under clone button(green coloured) and executing the below command. 
 
-### `npm run build`
+```
+git clone https://github.com/NagaHarshita/React-Sports-Club.git
+```
+https://confluence.atlassian.com/bitbucket/clone-a-repository-223217891.html
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### 3. List the current configured remote repository for your fork.
+Check the remote repositories.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+```
+git remote -v
+```
+This should contain your forked repo url.
+https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/configuring-a-remote-for-a-fork
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### 4. Specify a new remote upstream repository that will be synced with the fork.
+```
+git remote add upstream https://github.com/NagaHarshita/React-Sports-Club.git
+```
+https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/configuring-a-remote-for-a-fork
 
-### `npm run eject`
+#### 5. Verify the new upstream repository you've specified for your fork.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```
+git remote -v
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Verify if the above command displays the same as  
+origin - Your forked repo link
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+upstream - original repo link
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/configuring-a-remote-for-a-fork
 
-## Learn More
+#### 6. Keep fork and local repos up to date with the upstream
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Checkout to master branch
+```
+git checkout master
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Fetches from upstream and origin and prunes any deleted branches
+```
+git fetch --all --prune
+```
 
-### Code Splitting
+Reset the head to the last commit in the upstream's master repo
+```
+git reset --hard upstream/master
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+Push these changes to origin so that both fork and local repos are made up to date
+```
+git push origin master
+```
 
-### Analyzing the Bundle Size
+#### 7. Create a new branch
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+This is the branch you will be working on.
+```
+git checkout -b {New Branch Name}
+```
 
-### Making a Progressive Web App
+#### 8. Make changes in code
+#### 9. Add the changes to the remote repo
+```
+git add * 
+```
+#### 10. Commit the changes you made
+```
+git commit -m "{commit message}"
+```
+#### 11. Push the changes to the fork repo
+```
+git push origin master
+```
+#### 12. Make a pull request
+Go to your fork repo in github and click on the pull request button to make a PR which will further be reviewed and merged to the project repo.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+#### 13. Repeat steps 8,9,10 for making further changes  
 
-### Advanced Configuration
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+## Setting up ReactJs environment in local machine 
+#### 1. Install Node.js
+Download the 12.18.0 LTS version of Node.js for windows through this link https://nodejs.org/en/
+#### 2. Check node and npm versions 
+```
+node --version
+npm --version
+```
+#### 3. create-react-app for windows
+```
+npm install -g create-react-app
+``` 
+#### 4. Run the app 
+Go to the folder where your local repo is present(the one you downloaded/cloned from previous steps). And execute the following command
 
-### Deployment
+```
+npm start
+```
+Check create-react-app on windows section for futher clarification in the following guide.
+https://www.robinwieruch.de/react-js-windows-setup
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+This should run your app on the localhost. Make changes to the code and again run it in localhost using step 4.
 
-### `npm run build` fails to minify
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify -->
 
-# React-Sports-Club-
-As a part of the course Applied Software Engineering-I, with 6 of our team members, we are building  this web app.
+
+
+

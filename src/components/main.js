@@ -27,8 +27,8 @@ class main extends Component{
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, molestias repudiandae pariatur.</p>
                 <div id="date-countdown" />
                 <p>
-                  <a href="#" className="btn btn-primary py-3 px-4 mr-3">Book Ticket</a>
-                  <a href="#" className="more light">Learn More</a>
+                  <a href= "# " className="btn btn-primary py-3 px-4 mr-3">Book Ticket</a>
+                  <a href= "# " className="more light">Learn More</a>
                 </p>  
               </div>
             </div>
@@ -77,7 +77,7 @@ class main extends Component{
             <div className="row no-gutters">
               <div className="col-md-4">
                 <div className="post-entry">
-                  <a href="#">
+                  <a href= "# ">
                     <img src="images/img_1.jpg" alt="Image" className="img-fluid" />
                   </a>
                   <div className="caption">
@@ -98,7 +98,7 @@ class main extends Component{
               </div>
               <div className="col-md-4">
                 <div className="post-entry">
-                  <a href="#">
+                  <a href= "# ">
                     <img src="images/img_3.jpg" alt="Image" className="img-fluid" />
                   </a>
                   <div className="caption">
@@ -119,7 +119,7 @@ class main extends Component{
               </div>
               <div className="col-md-4">
                 <div className="post-entry">
-                  <a href="#">
+                  <a href= "# ">
                     <img src="images/img_2.jpg" alt="Image" className="img-fluid" />
                   </a>
                   <div className="caption">
@@ -270,9 +270,9 @@ class main extends Component{
               </div>
               <div className="col-6 text-right">
                 <div className="custom-nav">
-                  <a href="#" className="js-custom-prev-v2"><span className="icon-keyboard_arrow_left" /></a>
+                  <a href= "# " className="js-custom-prev-v2"><span className="icon-keyboard_arrow_left" /></a>
                   <span />
-                  <a href="#" className="js-custom-next-v2"><span className="icon-keyboard_arrow_right" /></a>
+                  <a href= "# " className="js-custom-next-v2"><span className="icon-keyboard_arrow_right" /></a>
                 </div>
               </div>
             </div>
@@ -318,6 +318,7 @@ class main extends Component{
               </div>
               <div className="item">
                 <div className="video-media">
+                {/* // eslint-disable-next-line */}
                   <img src="images/img_1.jpg" alt="Image" className="img-fluid" />
                   <a href="https://vimeo.com/139714818" className="d-flex play-button align-items-center" data-fancybox>
                     <span className="icon mr-3">
@@ -372,9 +373,9 @@ class main extends Component{
                 </div>
                 <div className="text">
                   <span className="meta">May 20, 2020</span>
-                  <h3 className="mb-4"><a href="#">Romolu to stay at Real Nadrid?</a></h3>
+                  <h3 className="mb-4"><a href= "# ">Romolu to stay at Real Nadrid?</a></h3>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus deserunt saepe tempora dolorem.</p>
-                  <p><a href="#">Read more</a></p>
+                  <p><a href= "# ">Read more</a></p>
                 </div>
               </div>
             </div>
@@ -385,9 +386,9 @@ class main extends Component{
                 </div>
                 <div className="text">
                   <span className="meta">May 20, 2020</span>
-                  <h3 className="mb-4"><a href="#">Romolu to stay at Real Nadrid?</a></h3>
+                  <h3 className="mb-4"><a href= "# ">Romolu to stay at Real Nadrid?</a></h3>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus deserunt saepe tempora dolorem.</p>
-                  <p><a href="#">Read more</a></p>
+                  <p><a href= "# ">Read more</a></p>
                 </div>
               </div>
             </div>

@@ -45,13 +45,13 @@ class contact extends Component{
                       </li>
                       <li className="mb-2">
                         <strong className="text-white d-block">Email</strong>
-                        <a href="#">info@unslate.co</a>
+                        <a href= "# ">info@unslate.co</a>
                       </li>
                       <li className="mb-2">
                         <strong className="text-white d-block">
                           Phone
                         </strong>
-                        <a href="#">+12 345 6789 012</a>
+                        <a href= "# ">+12 345 6789 012</a>
                       </li>
                     </ul>
                   </div>
