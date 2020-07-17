@@ -49,17 +49,17 @@ class header extends Component{
           </div> */} 
         <div className="ml-auto" >
         <Navbar collapseOnSelect expand="lg" >
-            <Navbar.Brand href={process.env.PUBLIC_URL +"/"} className="text-white">ARENA</Navbar.Brand>
+            <Navbar.Brand href={process.env.PUBLIC_URL +"/"}  style={{color:'black'}}>ARENA</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto">
                 
                 </Nav>
-                <Nav className="text-white" >
-                <Nav.Link style={{color:'white'}} className= "mb-3" href={process.env.PUBLIC_URL +"/about"}>About</Nav.Link>
-                <Nav.Link style={{color:'white'}} href={process.env.PUBLIC_URL +"/games"}>Games</Nav.Link>
-                <Nav.Link style={{color:'white'}} href={process.env.PUBLIC_URL +"/engage"}>Engage</Nav.Link>
-                <Nav.Link style={{color:'white'}} href={process.env.PUBLIC_URL +"/contact"}>Contact</Nav.Link>
+                <Nav className="text-black" >
+                <Nav.Link style={{color:'black'}} className= "mb-3" href={process.env.PUBLIC_URL +"/about"}>About</Nav.Link>
+                <Nav.Link style={{color:'black'}} href={process.env.PUBLIC_URL +"/games"}>Games</Nav.Link>
+                <Nav.Link style={{color:'black'}} href={process.env.PUBLIC_URL +"/contact"}>Contact</Nav.Link>
+                <Nav.Link style={{color:'black'}} href={process.env.PUBLIC_URL +"/interact"}>Interact</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

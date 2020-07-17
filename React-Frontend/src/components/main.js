@@ -1,12 +1,12 @@
 import React ,{ Component }  from 'react';
 import Footer from './footer';
-import Header from './header';
+
 class main extends Component{
     render() {
-      
         return(
             <div>
           
+         
           <div className="site-wrap">
         <div className="site-mobile-menu site-navbar-target">
           <div className="site-mobile-menu-header">
@@ -16,7 +16,7 @@ class main extends Component{
           </div>
           <div className="site-mobile-menu-body" />
         </div>
-        <Header/>
+        
         <div className="hero overlay" style={{backgroundImage: 'url("images/bg_3.jpg")'}}>
           <div className="container">
             <div className="row align-items-center">

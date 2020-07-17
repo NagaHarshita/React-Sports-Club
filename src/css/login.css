@@ -1,0 +1,45 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic);
+body
+{
+  background-image: linear-gradient(to top, #330867 0%, #30cfd0 100%);
+  background: #2980b9; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2980b9, #6dd5fa, #ffffff); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2980b9, #6dd5fa, #ffffff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family:'Oswald', sans-serif;
+}
+.container-fluid
+{
+  background-color:#30cfd0;
+  width:100%;
+  border-bottom-style: solid;
+  border-bottom-color: #330867;
+  border-bottom-width: 4px;
+}
+
+.body-c
+{
+  padding : 80px 0;
+}
+.container1
+{
+  background-color: #fff;
+  border-radius: 10px; 
+  box-shadow:15px 20px 0px rgba(0,0,0,0.1);
+  display:flex;
+  padding:100px;
+  margin: 100px;
+}
+.form-control{
+    box-shadow: 5px 5px #c2c2c2;
+    border-color: black;
+    float:center;
+}
+
+.login-sec{padding: 50px 30px; position:relative;}
+.login-sec .copy-text{position:absolute; width:80%; bottom:20px; font-size:13px; text-align:center;}
+.login-sec .copy-text i{color:#FEB58A;}
+.login-sec .copy-text a{color:#E36262;}
+.login-sec h2{margin-bottom:30px; font-weight:800; font-size:30px; color: #330867;}
+.login-sec h2:after{content:" "; width:100px; height:5px; background:#30cfd0; display:block; margin-top:20px; border-radius:3px; margin-left:auto;margin-right:auto}
+.btn-login{background: #330867; color:#fff; font-weight:600;float: center;width:50%;font-size: large;border-radius: 10px;}
