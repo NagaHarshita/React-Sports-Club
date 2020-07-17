@@ -1,13 +1,13 @@
 import React ,{ Component }  from 'react';
+import Header from './header';
 // import {Navbar,Nav} from 'react-bootstrap';
-import Header from './header'
-import Footer from './footer'
+
 
 class contact extends Component{
     render() {
         return(
             <div>
-            <Header/>
+              <Header/>
             <div className="hero overlay" style={{backgroundImage: 'url("images/bg_3.jpg")'}}>
               <div className="container">
                 <div className="row align-items-center">
@@ -60,7 +60,6 @@ class contact extends Component{
                 </div>
               </div>
             </div>
-            <Footer />
           </div>
         );
     }

@@ -1,18 +1,30 @@
-import React, {useState} from 'react';
+import React from 'react';
 import './App.css';
-import Navigation from './components/navigation';
-import Login from './components/login';
+import Main from "./components/main";
+import Contact from "./components/contact";
+import Login from "./components/login";
+import about from "./components/about";
+import interact from "./components/interact";
+import games from "./components/games";
+import {Route,BrowserRouter as Router,Switch} from "react-router-dom";
 
 function App() {
-  const [token, setToken] = useState('');
-
-  const userLogin = (tok) => {
-    setToken(tok);
-  }
-  
   return (
     <div className="App">
-      <Navigation />
+      
+      <Router>
+          <Switch>
+            {/* 
+            <Route exact path={process.env.PUBLIC_URL +"/projects"} component={portfolio}/>
+            <Route path={process.env.PUBLIC_URL +"/projects/:id"} component={display}/> */}
+            <Route path={process.env.PUBLIC_URL +"/about"} component={about}/>
+            <Route path={process.env.PUBLIC_URL +"/contact"} component={Contact}/>
+            <Route path={process.env.PUBLIC_URL +"/login"} component={Login}/>
+            <Route exact path={process.env.PUBLIC_URL +"/"} component={Main}/>
+            <Route exact path={process.env.PUBLIC_URL +"/interact"} component={interact}/>
+            <Route exact path={process.env.PUBLIC_URL +"/games"} component={games}/>
+          </Switch>
+        </Router> 
     </div>
   );
 }

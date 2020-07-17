@@ -1,6 +1,6 @@
 import React ,{ Component }  from 'react';
 import Header from './header';
-// import '../css/games.css';
+import '../css/games.css';
 import Footer from './footer';
 //import {Navbar,Nav} from 'react-bootstrap';
 
