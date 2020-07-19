@@ -259,6 +259,29 @@ class main extends Component{
             </div>
           </div>
         </div> {/* .site-section */}
+
+        <div className="map-are section-padding40">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-xl-11 col-lg-11 col-md-10 ">
+              {/* Section Tittle */}
+              <div className="section-tittle text-center mb-90">
+                <h2>Cloud Load Balancing</h2>
+                <p>Deploy your service infrastructure on our fully redundant, high performance cloud platform and benefit from its high reliability, security and enterprise feature set.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="map">
+            <div className="row">
+              <div className="col-xl-12">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.1786539269224!2d55.27218771500953!3d25.197196983896188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43348a67e24b%3A0xff45e502e1ceb7e2!2sBurj%20Khalifa!5e0!3m2!1sen!2sbd!4v1588690958350!5m2!1sen!2sbd" width="100%" height={600} frameBorder={0} style={{border: 0}} allowFullScreen aria-hidden="false" tabIndex={0} />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
         <div className="site-section">
           <div className="container">
             <div className="row">

@@ -8,7 +8,6 @@ import Footer from './footer';
 
 class login extends Component{
 
-
   state = {
     credentials: {username: '', password: ''}
   }
@@ -52,23 +51,24 @@ class login extends Component{
 
                                   <div className="form-group">
                                      <label for="exampleInputEmail1" class="text-uppercase">Username</label> 
-                                     <input type="text" name="username"
+                        <input type="text" name="username"
                                        value={this.state.credentials.username}
                                       onChange={this.inputChanged}/>
+
                                   </div>
                                   <div className="form-group">
                                      <label for="exampleInputPassword1" class="text-uppercase">Password</label> 
-                                     <input type="password" name="password"
-                                      value={this.state.credentials.password}
-                                      onChange={this.inputChanged} />
+                                    <input type="password" className="form-control" placeholder name="password" />
                                   </div>
                                   <div className="form-check">
                                     <label className="form-check-label">
                                       <input type="checkbox" className="form-check-input" />
                                       <small>Remember Me</small>
                                     </label>
+
                                     <br/>
                                     <button type="submit" onClick={this.login} className="btn btn-login ">Login</button>
+
                                   </div>
                                 </form>
                               </div>

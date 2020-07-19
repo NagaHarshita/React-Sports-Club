@@ -8,7 +8,9 @@ class contact extends Component{
         return(
             <div>
               <Header/>
-            <div className="hero overlay" style={{backgroundImage: 'url("images/bg_3.jpg")'}}>
+
+            <div className="hero overlay">
+
               <div className="container">
                 <div className="row align-items-center">
                   <div className="col-lg-9 mx-auto text-center">

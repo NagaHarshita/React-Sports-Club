@@ -10,6 +10,13 @@ class games extends Component{
         
               return (
                 <div>
+                     <Header/>
+                     <br/>
+                     <br/>
+                     <br/>
+                     <br/>
+                     
+                <div style={{backgroundImage: 'linear-gradient(-20deg, #f794a4 0%, #fdd6bd 100%)'}}>
                   <meta charSet="UTF-8" />
                   <meta name="description" content="Fashi Template" />
                   <meta name="keywords" content="Fashi, unica, creative, html" />
@@ -22,13 +29,7 @@ class games extends Component{
                   <link rel="stylesheet" href="test.css" />
                   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
                   
-                  <div>
-                     <Header/>
-                     <br/>
-                     <br/>
-                     <br/>
-                     <br/>
-                     </div>
+                  
                     <div className="container">
                       <div className="inner-header">
                         <div className="row">
@@ -80,7 +81,7 @@ class games extends Component{
                                               </div> */}
                                     <i className="fa fa-heart-o" aria-hidden="true" />
                                   </a></li>
-                                <li className="quick-view"><a href="#">ENGAGE</a></li>
+                                <li className="quick-view"><a href={process.env.PUBLIC_URL +"/sport1"}>ENGAGE</a></li>
                               </ul>
                             </div>
                           </div>
@@ -97,7 +98,7 @@ class games extends Component{
                                               </div> */}
                                     <i className="fa fa-heart-o" aria-hidden="true" />
                                   </a></li>
-                                <li className="quick-view"><a href="#">ENGAGE</a></li>
+                                <li className="quick-view"><a href={process.env.PUBLIC_URL +"/sport2"}>ENGAGE</a></li>
                               </ul>
                             </div>
                           </div>
@@ -114,7 +115,7 @@ class games extends Component{
                                               </div> */}
                                     <i className="fa fa-heart-o" aria-hidden="true" />
                                   </a></li>
-                                <li className="quick-view"><a href="#">ENGAGE</a></li>
+                                <li className="quick-view"><a href={process.env.PUBLIC_URL +"/sport3"}>ENGAGE</a></li>
                               </ul>
                             </div>
                           </div>
@@ -131,7 +132,7 @@ class games extends Component{
                                               </div> */}
                                     <i className="fa fa-heart-o" aria-hidden="true" />
                                   </a></li>
-                                <li className="quick-view"><a href="#">ENGAGE</a></li>
+                                <li className="quick-view"><a href={process.env.PUBLIC_URL +"/sport4"}>ENGAGE</a></li>
                               </ul>
                             </div>
                           </div>
@@ -151,7 +152,7 @@ class games extends Component{
                                               </div> */}
                                     <i className="fa fa-heart-o" aria-hidden="true" />
                                   </a></li>
-                                <li className="quick-view"><a href="#">ENGAGE</a></li>
+                                <li className="quick-view"><a href={process.env.PUBLIC_URL +"/sport5"}>ENGAGE</a></li>
                               </ul>
                             </div>
                           </div>
@@ -168,7 +169,7 @@ class games extends Component{
                                               </div> */}
                                     <i className="fa fa-heart-o" aria-hidden="true" />
                                   </a></li>
-                                <li className="quick-view"><a href="#">ENGAGE</a></li>
+                                <li className="quick-view"><a href={process.env.PUBLIC_URL +"/sport6"}>ENGAGE</a></li>
                               </ul>
                             </div>
                           </div>
@@ -185,7 +186,7 @@ class games extends Component{
                                               </div> */}
                                     <i className="fa fa-heart-o" aria-hidden="true" />
                                   </a></li>
-                                <li className="quick-view"><a href="#">ENGAGE</a></li>
+                                <li className="quick-view"><a href={process.env.PUBLIC_URL +"/sport7"}>ENGAGE</a></li>
                               </ul>
                             </div>
                           </div>
@@ -202,7 +203,7 @@ class games extends Component{
                                               </div> */}
                                     <i className="fa fa-heart-o" aria-hidden="true" />
                                   </a></li>
-                                <li className="quick-view"><a href="#">ENGAGE</a></li>
+                                <li className="quick-view"><a href={process.env.PUBLIC_URL +"/sport8"}>ENGAGE</a></li>
                               </ul>
                             </div>
                           </div>
@@ -213,6 +214,7 @@ class games extends Component{
                   <Footer/>
                   {/* Footer Section End */}
                   {/* Js Plugins */}
+                </div>
                 </div>
               );
             }
