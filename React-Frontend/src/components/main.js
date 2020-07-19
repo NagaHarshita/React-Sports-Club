@@ -25,7 +25,7 @@ class main extends Component{
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, molestias repudiandae pariatur.</p>
                 <div id="date-countdown" />
                 <p>
-                  <a href= "# " className="btn btn-primary py-3 px-4 mr-3" href={process.env.PUBLIC_URL +"/login"}>Login now</a>
+                  <a className="btn btn-primary py-3 px-4 mr-3" href={process.env.PUBLIC_URL +"/login"}>Login now</a>
                 </p>  
               </div>
             </div>

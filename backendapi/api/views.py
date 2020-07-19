@@ -2,6 +2,7 @@ from rest_framework import viewsets
 from django.contrib.auth.models import User
 from .serializers import *
 from .models import *
+from rest_framework.generics import ListAPIView, RetrieveAPIView, CreateAPIView
 
 class UserViewSet(viewsets.ModelViewSet):
     queryset = User.objects.all()
@@ -24,6 +25,10 @@ class ResourceViewSet(viewsets.ModelViewSet):
     serializer_class = ResourceSerializer
 
 class SlotViewSet(viewsets.ModelViewSet):
+    queryset = Slot.objects.all()
+    serializer_class = SlotSerializer
+
+class SlotCreateView(viewsets.ModelViewSet):
     queryset = Slot.objects.all()
     serializer_class = SlotSerializer
 

@@ -11,7 +11,9 @@ router.register('company', CompanyViewSet)
 router.register('client', ClientViewSet)
 router.register('resource', ResourceViewSet)
 router.register('slot', SlotViewSet)
+router.register('slot', SlotCreateView, base_name='create')
 
 urlpatterns = [
     path('', include(router.urls)),
+    # path('create/', SlotCreateView.as_view())
 ]

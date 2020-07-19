@@ -30,10 +30,10 @@ class Resource(models.Model):
 
 class Slot(models.Model):
     id = models.IntegerField(primary_key=True, default=0)
-    resource_id = models.ForeignKey(Resource, on_delete=models.CASCADE, default=0)
-    date = models.DateField()
-    start_time = models.TimeField(default = timezone.now)
-    end_time = models.TimeField(default = timezone.now)
+    resource_id = models.CharField(max_length=30)
+    date = models.CharField(max_length=30)
+    start_time = models.CharField(max_length=30)
+    end_time = models.CharField(max_length=30)
     min_spaces = models.IntegerField(default=2)
     max_spaces = models.IntegerField(default=2)
     spaces_booked = models.IntegerField(default=0)
