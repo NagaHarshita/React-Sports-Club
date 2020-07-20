@@ -27,7 +27,7 @@ class sport6 extends Component
                       <div className="row justify-content-center">
                         <div className="hero__caption" >
                           <br />
-                          <h1>Badminton</h1>
+                          <h1>Cricket</h1>
                         </div>
                       </div>
                     </div>
@@ -48,7 +48,7 @@ class sport6 extends Component
                         <div className="card-mid">
                         </div>
                         <div className="card-bottom">
-                          <a href="services.html" className="borders-btn">Get Started</a>
+                        <a  href={process.env.PUBLIC_URL +"/interact"}className="borders-btn">Get Started</a>
                         </div>
                       </div>
                     </div>
@@ -57,7 +57,7 @@ class sport6 extends Component
                 {/* Pricing Card End */}
                 {/* Scroll Up */}
                 <div id="back-top">
-                  <a title="Go to Top" href="#"> <i className="fas fa-level-up-alt" /></a>
+                  <a title="Go to Top" href={process.env.PUBLIC_URL +"/interact"}> <i className="fas fa-level-up-alt" /></a>
                 </div>
                 {/* JS here */}
                 {/* Jquery, Popper, Bootstrap */}

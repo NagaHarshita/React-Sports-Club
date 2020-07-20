@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './App.css';
 import Main from "./components/main";
 import Contact from "./components/contact";
@@ -17,11 +17,12 @@ import sport6 from "./components/sport6";
 import sport7 from "./components/sport7";
 import sport8 from "./components/sport8";
 import {Route,BrowserRouter as Router,Switch} from "react-router-dom";
-
-function App() {
-
-import {Route,BrowserRouter as Router,Switch} from "react-router-dom";
+// import {Route,BrowserRouter as Router,Switch} from "react-router-dom";
 import book from './components/book'
+
+
+
+
 
 function App() {
   const [token, setToken] = useState('');

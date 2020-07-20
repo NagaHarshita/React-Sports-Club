@@ -21,7 +21,7 @@ class main extends Component{
           <div className="container">
             <div className="row align-items-center">
               <div className="col-lg-5 ml-auto">
-                <h1 className="text-white">World Cup Event</h1>
+                <h1 className="text-white">Welcome to Arena!!</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, molestias repudiandae pariatur.</p>
                 <div id="date-countdown" />
                 <p>

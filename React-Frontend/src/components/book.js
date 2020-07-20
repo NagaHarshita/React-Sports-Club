@@ -60,6 +60,8 @@
 
 import React, { Component } from "react";
 import axios from 'axios';
+import Header from './header';
+import Footer from './footer';
 class book extends Component {
     state = {
         details: {start_time: '', end_time :'' , resource_id :'' }
@@ -97,13 +99,18 @@ class book extends Component {
   }
   render(){
   return (
-    <form>
+      <div>
+          <Header/>
+    <form style={{padding:"150px"}}>
       <label>
           <p>Start_time</p>
         <select name="start_time" onChange={this.handleChange} value={this.state.details.start_time}>
           <option value="16.8">6:00AM</option>
           <option value="16.7">7:00AM</option>
           <option value="16.6">8:00AM</option>
+          <option value="16.8">6:00PM</option>
+          <option value="16.7">7:00PM</option>
+          <option value="16.6">8:00PM</option>
         </select>
       </label>
       <label>
@@ -112,18 +119,31 @@ class book extends Component {
           <option value="16.8">7:00AM</option>
           <option value="16.7">8:00AM</option>
           <option value="16.6">9:00AM</option>
+          <option value="16.8">7:00PM</option>
+          <option value="16.7">8:00PM</option>
+          <option value="16.6">9:00PM</option>
         </select>
       </label>
+      <br/>
       <label>
           <p>Sport</p>
         <select name="resource_id" onChange={this.handleChange} value={this.state.details.resource_id}>
           <option value="1">Tennis</option>
           <option value="2">Table Tennis</option>
-          <option value="2">Badminton</option>
+          <option value="3">Badminton</option>
+          <option value="4">Tennis</option>
+          <option value="5">Chess</option>
+          <option value="6">Carroms</option>
+          <option value="7">Basket Ball</option>
+          <option value="8">Cricket</option>
+          <option value="9">Football</option>
         </select>
       </label>
-      <button type="submit" className="btn btn-login">BOOK</button>
+      <br/>
+      <a type="submit" className="btn btn-login" href={process.env.PUBLIC_URL +"/about"}>BOOK</a>
     </form>
+    <Footer/>
+    </div>
   );
 }}
 

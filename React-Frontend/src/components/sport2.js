@@ -11,15 +11,10 @@ class sport2 extends Component
     {
         return (
             <div style={{backgroundColor:"white"}}>
-              <meta charSet="utf-8" />
-              <meta httpEquiv="x-ua-compatible" content="ie=edge" />
-              <meta name="description" content />
-              <meta name="viewport" content="width=device-width, initial-scale=1" />
-              <link rel="manifest" href="site.webmanifest" />
-              <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico" />
-
+              
               <main>
                 {/* Hero Area Start*/}
+              
                 <div className="slider-area" style={{backgroundImage: 'url("images/h1_hero.png")'}}>
                 
                   <div className="single-slider slider-height d-flex">
@@ -27,7 +22,7 @@ class sport2 extends Component
                       <div className="row justify-content-center">
                         <div className="hero__caption" >
                           <br />
-                          <h1>Badminton</h1>
+                          <h1>Tennis</h1>
                         </div>
                       </div>
                     </div>
@@ -48,7 +43,7 @@ class sport2 extends Component
                         <div className="card-mid">
                         </div>
                         <div className="card-bottom">
-                          <a href="services.html" className="borders-btn">Get Started</a>
+                        <a  href={process.env.PUBLIC_URL +"/interact"}className="borders-btn">Get Started</a>
                         </div>
                       </div>
                     </div>
@@ -57,7 +52,7 @@ class sport2 extends Component
                 {/* Pricing Card End */}
                 {/* Scroll Up */}
                 <div id="back-top">
-                  <a title="Go to Top" href="#"> <i className="fas fa-level-up-alt" /></a>
+                  <a title="Go to Top" href={process.env.PUBLIC_URL +"/interact"}> <i className="fas fa-level-up-alt" /></a>
                 </div>
                 {/* JS here */}
                 {/* Jquery, Popper, Bootstrap */}

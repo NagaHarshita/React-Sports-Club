@@ -14,8 +14,8 @@ class about extends Component{
                       <div id="parallax-world-of-ugg">
                         <section>
                           <div style={{background: 'white', paddingTop: '100px', margin: '0 auto', textAlign: 'center'}}>
-                            <h3>Let's do some</h3>
-                            <h1 style={{fontSize: '35px', letterSpacing: '8px'}}>PARALLAX</h1>
+                            {/* <h3>Let's do some</h3>
+                            <h1 style={{fontSize: '35px', letterSpacing: '8px'}}>PARALLAX</h1> */}
                           </div>
                         </section>
                         <section>
