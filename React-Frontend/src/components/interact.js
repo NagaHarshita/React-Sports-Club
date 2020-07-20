@@ -2,6 +2,9 @@ import React ,{ Component }  from 'react';
 import Header from './header';
 import '../css/interact.css';
 import Footer from './footer';
+
+
+
 //import {Navbar,Nav} from 'react-bootstrap';
 import moment from 'moment';
 import ReactTimeslotCalendar from 'react-timeslot-calendar';
@@ -120,4 +123,5 @@ class interact extends Component{
     );
   }
 }
+
 export default interact;

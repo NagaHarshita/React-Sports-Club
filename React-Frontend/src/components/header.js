@@ -7,9 +7,9 @@ class header extends Component{
         return(
 
         <header className="site-navbar py-4" role="banner">
-        <div className="ml-auto" style={{backgroundColor:'black'}}>
-        <Navbar collapseOnSelect expand="lg" >
 
+        <div className="ml-auto" style={{backgroundColor:'black',marginTop:'-30px',padding:'10px 20px'}}>
+        <Navbar collapseOnSelect expand="lg" >
             <Navbar.Brand href={process.env.PUBLIC_URL +"/"}  style={{color:'white',fontSize:'40px',fontWeight:'bold'}}>ARENA</Navbar.Brand>
 
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />

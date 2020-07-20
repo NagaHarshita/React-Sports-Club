@@ -145,7 +145,7 @@ class games extends Component{
                           <div className="product-item">
                             <div className="pi-pic">
                               <img src="images/sports.jpg" alt="" />
-                              <div className="sale">YOGA</div><ul>
+                              <div className="sale">VOLLEYBALL</div><ul>
                                 <li className="w-icon active"><a href="#">
                                     {/* <div class="icon">
                                                   <i class="icon_heart_alt"></i>

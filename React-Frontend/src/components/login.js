@@ -51,9 +51,11 @@ class login extends Component{
 
                                   <div className="form-group">
                                      <label for="exampleInputEmail1" class="text-uppercase">Username</label> 
+
                         <input type="text" name="username"
                                        value={this.state.credentials.username}
                                       onChange={this.inputChanged}/>
+
 
                                   </div>
                                   <div className="form-group">
@@ -65,9 +67,14 @@ class login extends Component{
                                       <input type="checkbox" className="form-check-input" />
                                       <small>Remember Me</small>
                                     </label>
-
-                                    <br/>
-                                    <button type="submit" onClick={this.login} className="btn btn-login ">Login</button>
+         <br />
+                                    <label style={{float:"right",color:'blue'}}>
+                                    <li className="quick-view"><a href={process.env.PUBLIC_URL +"/forpass"} style={{color:'black'}}>Forgot password?</a></li>
+                                    </label>
+                                    <br />
+                                    <br />
+                                    
+                                    <button type="submit"  style={{padding:'10px 40px',backgroundColor:'blue',borderRadius:'20px'}}>Login</button>
 
                                   </div>
                                 </form>

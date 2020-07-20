@@ -16,19 +16,11 @@ import sport5 from "./components/sport5";
 import sport6 from "./components/sport6";
 import sport7 from "./components/sport7";
 import sport8 from "./components/sport8";
+
+import forpass from "./components/forpass";
 import {Route,BrowserRouter as Router,Switch} from "react-router-dom";
 
 function App() {
-
-import {Route,BrowserRouter as Router,Switch} from "react-router-dom";
-import book from './components/book'
-
-function App() {
-  const [token, setToken] = useState('');
-
-  const userLogin = (tok) => {
-    setToken(tok);
-  }
 
   return (
     <div className="App">
@@ -54,8 +46,12 @@ function App() {
             <Route exact path={process.env.PUBLIC_URL +"/sport7"} component={sport7}/>
             <Route exact path={process.env.PUBLIC_URL +"/sport8"} component={sport8}/>
 
+            <Route exact path={process.env.PUBLIC_URL +"/forpass"} component={forpass}/>
+
+
             <Route path={process.env.PUBLIC_URL +"/book"} component={book}/>
            
+
           </Switch>
         </Router> 
     </div>
