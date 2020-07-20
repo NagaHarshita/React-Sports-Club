@@ -8,16 +8,9 @@ import '../css/style.css';
 class sport4 extends Component
 {
     render() 
-    {
-        return (
-            <div style={{backgroundColor:"white"}}>
-              <meta charSet="utf-8" />
-              <meta httpEquiv="x-ua-compatible" content="ie=edge" />
-              <meta name="description" content />
-              <meta name="viewport" content="width=device-width, initial-scale=1" />
-              <link rel="manifest" href="site.webmanifest" />
-              <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico" />
-
+    { 
+      return(
+            <div>
               <main>
                 {/* Hero Area Start*/}
                 <div className="slider-area" style={{backgroundImage: 'url("images/h1_hero.png")'}}>
@@ -59,19 +52,15 @@ class sport4 extends Component
                 <div id="back-top">
                   <a title="Go to Top" href={process.env.PUBLIC_URL +"/interact"}> <i className="fas fa-level-up-alt" /></a>
                 </div>
-                {/* JS here */}
-                {/* Jquery, Popper, Bootstrap */}
-                {/* Jquery Mobile Menu */}
-                {/* Jquery Slick , Owl-Carousel Plugins */}
-                {/* One Page, Animated-HeadLin */}
-                {/* Date Picker */}
-                {/* Nice-select, sticky */}
-                {/* Progress */}
-                {/* counter , waypoint,Hover Direction */}
-                {/* contact js */}
-                {/* Jquery Plugins, main Jquery */}	
-              </main></div>
-          ); 
+              
+        </main>
+        <Footer/>
+        </div>
+      
+
+
+      );
+
     }
 }
 

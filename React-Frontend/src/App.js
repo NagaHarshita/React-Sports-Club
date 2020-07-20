@@ -24,12 +24,10 @@ import book from './components/book'
 
 
 
-function App() {
-  const [token, setToken] = useState('');
+import forpass from "./components/forpass";
+import {Route,BrowserRouter as Router,Switch} from "react-router-dom";
 
-  const userLogin = (tok) => {
-    setToken(tok);
-  }
+function App() {
 
   return (
     <div className="App">
@@ -55,8 +53,12 @@ function App() {
             <Route exact path={process.env.PUBLIC_URL +"/sport7"} component={sport7}/>
             <Route exact path={process.env.PUBLIC_URL +"/sport8"} component={sport8}/>
 
+            <Route exact path={process.env.PUBLIC_URL +"/forpass"} component={forpass}/>
+
+
             <Route path={process.env.PUBLIC_URL +"/book"} component={book}/>
            
+
           </Switch>
         </Router> 
     </div>

@@ -52,19 +52,17 @@ class sport8 extends Component
                 <div id="back-top">
                   <a title="Go to Top" > <i className="fas fa-level-up-alt" /></a>
                 </div>
-                {/* JS here */}
-                {/* Jquery, Popper, Bootstrap */}
-                {/* Jquery Mobile Menu */}
-                {/* Jquery Slick , Owl-Carousel Plugins */}
-                {/* One Page, Animated-HeadLin */}
-                {/* Date Picker */}
-                {/* Nice-select, sticky */}
-                {/* Progress */}
-                {/* counter , waypoint,Hover Direction */}
-                {/* contact js */}
-                {/* Jquery Plugins, main Jquery */}	
-              </main></div>
-          ); 
+              
+            
+        </main>
+        <Footer/>
+        </div>
+        
+
+
+
+        );
+
     }
 }
 
